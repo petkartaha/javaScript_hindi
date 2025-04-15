@@ -51,9 +51,3 @@ console.log(typeof stringNumber)
 // let booleanLogged = Boolean(logged )
 // console.log(booleanLogged );
 
-
-
-
-
-
-
