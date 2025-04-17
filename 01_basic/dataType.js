@@ -1,0 +1,1 @@
+alert(3+7) //we are using nodejs ,not brower
