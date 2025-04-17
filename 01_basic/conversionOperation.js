@@ -51,7 +51,9 @@
 // let booleanLogged = Boolean(logged )
 // console.log(booleanLogged );
 
-// number
+// ************************************* NEW *************************************
+
+// Number
 // let score=35;      //Number
 
 // let score = "35"    //String     "35"=>35
@@ -123,6 +125,6 @@
     // let x=5
     // const y= ++x
     // console.log(`x:${x},y:${y}`); //Prefix =>x:6,y:6
-    
+
     
     
