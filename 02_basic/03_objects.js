@@ -1,8 +1,7 @@
-// singleton
+// Object literals
 
 
 const symbol=Symbol("mySym")
-// Object literals
 
 const jsUser={
     "full name": "taha petkar",
