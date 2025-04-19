@@ -2,7 +2,7 @@
 
 
 const symbol=Symbol("mySym")
-
+// const jsUser={} =>.   Non Singleton Object
 const jsUser={
     "full name": "taha petkar",
     name:"taha",
