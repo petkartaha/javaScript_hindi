@@ -50,12 +50,12 @@ const regularUser = {
 // const obj4 = Object.assign({},obj1,obj2,obj3) //=> {}
 // console.log(obj4);
 
-// Object Assign snytax
+// ***Object Assign snytax***IMP***
 
 // const target ={1:"a",2:"b"}
 // const source ={3:"c",4:"d"}
 
-// const returnTarget ={...target,...source}
+// const returnTarget ={...target,...source} OBJECT ASSIGN {...IMP,...}
 // console.log(returnTarget);
 
 // Object Array
