@@ -73,17 +73,45 @@ const User=[
 User[2].name
  
 
-console.log(tinderUser);
+// console.log(tinderUser);
 
-console.log(Object.keys(tinderUser)); //=>keys [ 'name', 'email', 'city' ]
+// console.log(Object.keys(tinderUser)); //=>keys [ 'name', 'email', 'city' ]
 
-console.log(Object.values(tinderUser));//=>values [ 'taha petkar', 'taha@gmail.com', 'Kalyan' ]
+// console.log(Object.values(tinderUser));//=>values [ 'taha petkar', 'taha@gmail.com', 'Kalyan' ]
 
-console.log(Object.entries(tinderUser));// => entries   [ 'name', 'taha petkar' ],
-                                                        // [ 'email', 'taha@gmail.com' ],
-                                                        // [ 'city', 'Kalyan' ]
-                                                        //  ]
+// console.log(Object.entries(tinderUser));// => entries   [ 'name', 'taha petkar' ],
+//                                                         // [ 'email', 'taha@gmail.com' ],
+//                                                         // [ 'city', 'Kalyan' ]
+//                                                         //  ]
 
 
-console.log(tinderUser.hasOwnProperty("email")); //=>hasOwnProperty (true)
+// console.log(tinderUser.hasOwnProperty("email")); //=>hasOwnProperty (true)
             
+
+
+// ***********************************************************************
+
+// De-Structuring
+
+const course ={
+    bookname:"JavaScript",
+    price:"777",
+    courseInstructor:"Hitesh",
+}
+
+// course.courseInstructor
+
+// Syntax
+const {courseInstructor:instructor}=course
+
+console.log(instructor); //=>Hitesh
+
+
+// **************************************************************
+                         // JSON File 
+
+                        //  {
+                        //     "name":"Taha",
+                        //     "age": 23,
+                        //     "education":"BE IT",
+                        //  }
