@@ -42,10 +42,16 @@ function myName(){       //ye pure ko defination bolte hai
 
 // Fouth Tarika
 
-// function userName(name){
-//     if(!name ){
+// function userName(name){                    // without if(condition){}
+//     return `${name} Just login a username.`
+// }
+// console.log(userName("taha"));
+
+
+
+// function userName(name){                      
 //       console.log("please enter a name");
-//         return // ===> Agar
+//         return // ===> Agar yahe par rukna ho to return laga hu.
 //     }
 //     return `${name} Login your username `
 // }
