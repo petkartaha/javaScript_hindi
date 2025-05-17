@@ -16,7 +16,6 @@
 // console.log(valueNumber);
 
 
-
 // NULL
 // let score = null     
 //  null is a Object
