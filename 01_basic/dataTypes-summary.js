@@ -16,7 +16,7 @@ const userEmail = null
  const accountId = Symbol('123')
  const otherId = Symbol('123')
 
- console.log(accountId === otherId);
+//  console.log(accountId === otherId);
  
 
 //  Non PRIMATIVE 
@@ -36,3 +36,36 @@ const userEmail = null
     console.log("Hello World");
     
  }
+
+
+ //**************************************************************************************
+
+//  Stack for Primitive it will give the copy
+
+let myYoutubename = "life with animal"
+
+let anOthername = myYoutubename
+
+anOthername = "Chai ur code"
+console.log(myYoutubename);
+
+console.log(anOthername);
+
+
+// Heap for Non Primitive it will give for reference
+
+let userOne = {
+   email : "tahapetkar4@gmail.com",
+   upi : "taha@ybl"
+}
+
+let userTwo = userOne
+userTwo.email= "petkar.mohdtaha@gmail.com"
+let userThree= userTwo 
+userThree.email = "mohd@gmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+console.log(userThree.email);
+
+
