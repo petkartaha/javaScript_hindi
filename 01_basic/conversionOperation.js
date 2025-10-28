@@ -1,5 +1,7 @@
 // STRING
-// let score = "33abc" => NaN
+// let score = ture
+// "33abc" 
+// => NaN (Not A Number)
 // console.log(typeof (score));
 // Convert Number to String 
 // let someNumber = 34
@@ -10,7 +12,7 @@
 
 
 // Number
-// let score = "33" => 33
+// let score = "33" // => 33
 // let valueNumber = Number(score)
 // console.log(typeof (valueNumber));
 // console.log(valueNumber);
@@ -29,20 +31,15 @@
 // console.log(typeof score);
 
 
-
-
-
-
-// true is a boolean value and give 1
-// false is a boolean value and give 0
-// "" in boolean give false
-// "Taha" in boolean give true
-
 // let score = false
 // let valueNumber = Number(score)
 // console.log(typeof valueNumber)
 // console.log(valueNumber);
 
+// Notes
+
+// "33abcd" is NaN
+// ************************
 // Boolean
 
 // let logged = 1
@@ -50,6 +47,12 @@
 // let booleanLogged = Boolean(logged )
 // console.log(booleanLogged );
 
+// Notes
+
+// true is a boolean value and give 1
+// false is a boolean value and give 0
+// "" in boolean give false
+// "Taha" in boolean give true
 // ************************************* NEW *************************************
 
 // Number
@@ -79,11 +82,11 @@
 
 // String
 
-    // let number = 23
-    // let numberString = String(number)
-    // console.log(typeof numberString); //33=>String
+    let number = 23
+    let numberString = String(number)
+    console.log(typeof numberString); //23=>String
     
-    // console.log(numberString); //=>33
+    console.log(numberString); //=>23
 
 // ******************************** OPERATIONS ***************************************
 
