@@ -82,11 +82,11 @@
 
 // String
 
-    let number = 23
-    let numberString = String(number)
-    console.log(typeof numberString); //23=>String
+    // let number = 23
+    // let numberString = String(number)
+    // console.log(typeof numberString); //23=>String
     
-    console.log(numberString); //=>23
+    // console.log(numberString); //=>23
 
 // ******************************** OPERATIONS ***************************************
 
