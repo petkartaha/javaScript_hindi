@@ -5,7 +5,7 @@ function usingRest(...num){ //===> EK PARAMETER SAB LEGA ARGUMENTS JITNA BHI HAI
     console.log(result);
     
 }
-// usingRest(200,300,400,5000)
+usingRest(200,300,400,5000)
 
 //  FUNCTION SE KAISE CALL KARE OBJECT KO
  const user = {
