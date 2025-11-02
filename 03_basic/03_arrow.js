@@ -33,3 +33,11 @@ const user = {
         
     }
     chai()
+
+
+    // arrow function 
+
+    const chai = () => {
+        console.log(this)
+    }
+    chai()
