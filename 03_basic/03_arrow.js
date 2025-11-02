@@ -28,8 +28,8 @@ const user = {
 
     function chai(){
         let userName = "Taha"
-        console.log(this.userName); //==>undefined this key work nahi karta function 
-                                        // ya arrow function me 
+        // console.log(this.userName); //==>undefined this key work nahi karta function 
+                                        // ya arrow function me this object me kaam kata hai
         
     }
     chai()
