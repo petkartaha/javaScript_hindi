@@ -26,18 +26,23 @@ const user = {
 
 //IMP
 
-    function chai(){
-        let userName = "Taha"
-        // console.log(this.userName); //==>undefined this key work nahi karta function 
-                                        // ya arrow function me this object me kaam kata hai
+    // function chai(){
+    //     let userName = "Taha"
+    //     // console.log(this.userName); //==>undefined this key work nahi karta function 
+    //                                     // ya arrow function me this object me kaam kata hai
         
-    }
-    chai()
+    // }
+    // chai()
 
-
+function chai(){
+         let userName = "Taha" // => sade function me global aata 
+     console.log(this); 
+        
+     }
+     chai()
     // arrow function 
 
-    const chai = () => {
-        console.log(this)
-    }
-    chai()
+    // const chai = () => {
+    //     console.log(this) //==>Arrow Function me {} empty aata 
+    // }
+    // chai()
